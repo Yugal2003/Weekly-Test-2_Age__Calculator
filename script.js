@@ -4,7 +4,7 @@ let showYear     = document.querySelector(".age_count");
 
 clickButton.addEventListener("click" , () =>{
     if(selectDate.value === ""){
-        alert("Please enter your birthday")
+        alert("Please enter your birthday:")
     }
     else{
         //select time calculator
